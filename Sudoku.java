@@ -52,7 +52,7 @@ public class Sudoku{
             System.out.println("Enter a Column");
             int col = sc.nextInt();
             //check if the selected coordinates do not already have a 0
-            if (board[row][col] != 0){
+            if (unsolved[row][col] != 0){
                 System.out.println("This spot is already filled");
             }
             else{
