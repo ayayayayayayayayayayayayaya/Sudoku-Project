@@ -59,7 +59,7 @@ public class Sudoku{
                 System.out.println("Enter a number from 1-9");
                 int playerChoice = sc.nextInt();
                 if (board[row][col] == playerChoice)
-                    board[row][col] = playerChoice;
+                    unsolved[row][col] = playerChoice;
                 else
                     System.out.println("Didn't work");
             }
